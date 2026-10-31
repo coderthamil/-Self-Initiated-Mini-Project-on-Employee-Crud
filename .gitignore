@@ -1,0 +1,51 @@
+# ========================================================
+# Root .gitignore for Simple Employee MS (Frontend & Backend)
+# ========================================================
+
+# -----------------
+# .NET / Backend
+# -----------------
+**/bin/
+**/obj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.user
+*.suo
+*.userprefs
+TestResults/
+*.DotSettings.user
+
+# -----------------
+# Node.js / Frontend
+# -----------------
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local overrides
+.env
+.env.local
+.env.*.local
+*.local
+
+# -----------------
+# IDE & System files
+# -----------------
+.idea/
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
